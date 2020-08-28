@@ -1,5 +1,5 @@
 import React from 'react';
-import Main from '../template/Main';
+import Main from '../../components/Main';
 import { Component } from 'react';
 
 

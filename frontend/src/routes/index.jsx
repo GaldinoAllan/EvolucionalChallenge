@@ -1,8 +1,8 @@
 import React from 'react';
 import { Switch, Route, Redirect } from 'react-router';
 
-import Home from '../components/Landing/Home';
-import Students from '../components/Students';
+import Home from '../pages/Landing/Home';
+import Students from '../pages/Students';
 
 export default props =>
     <Switch>
