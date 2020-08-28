@@ -265,22 +265,22 @@
     {
       "id": 4,
       "ra": 852348,
-      "name": "Bibica",
+      "name": "Allan",
       "degreeId": 4,
       "classId": 2
     },
     {
       "id": 5,
-      "ra": 454643,
+      "ra": "4546",
       "name": "Jean",
       "degreeId": 6,
       "classId": 2
     },
     {
-      "ra": "3000362",
-      "name": "Allan Galdino",
-      "degreeId": "3",
-      "classId": "5",
+      "ra": "10",
+      "name": "Ana Carolina",
+      "degreeId": "1",
+      "classId": "6",
       "id": 6
     }
   ],

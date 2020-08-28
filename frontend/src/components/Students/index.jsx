@@ -2,17 +2,23 @@ import React from 'react';
 import Main from '../template/Main';
 import { Component } from 'react';
 
+
+
 import api from '../../service/api'
+import getClassById from '../../utils/getClassById';
+import getDegreeById from '../../utils/getDegreeById';
 
 const headerProps = {
   icon: 'users',
-  title: 'Usuários',
-  subtitle: 'Cadastros de usuários: Incluir, Listar, Alterar e Excluir',
+  title: 'Students',
+  subtitle: 'Lista e cadastros de students',
 };
 
 const initialState = {
   student: { ra: 0, name: '', degreeId: 0, classId: 0 },
   list: [],
+  classes: [{ id: 0, name: '' }],
+  degrees: [{ id: 0, name: '' }]
 };
 
 export default class UserCrud extends Component {
@@ -22,6 +28,14 @@ export default class UserCrud extends Component {
     api.get('students').then(response => {
       console.log(response);
       this.setState({ list: response.data });
+    });
+    api.get('classes').then(response => {
+      console.log(response);
+      this.setState({ classes: response.data });
+    });
+    api.get('degrees').then(response => {
+      console.log(response);
+      this.setState({ degrees: response.data });
     });
   }
 
@@ -75,10 +89,9 @@ export default class UserCrud extends Component {
               <input
                 type="text"
                 className="form-control"
-                name="email"
+                name="ra"
                 value={this.state.student.ra}
                 onChange={e => this.updateField(e)}
-                placeholder="Digite o RA..."
               />
             </div>
           </div>
@@ -91,10 +104,9 @@ export default class UserCrud extends Component {
               <input
                 type="text"
                 className="form-control"
-                name="email"
+                name="degreeId"
                 value={this.state.student.degreeId}
                 onChange={e => this.updateField(e)}
-                placeholder="Digite o RA..."
               />
             </div>
           </div>
@@ -105,10 +117,9 @@ export default class UserCrud extends Component {
               <input
                 type="text"
                 className="form-control"
-                name="email"
+                name="classId"
                 value={this.state.student.classId}
                 onChange={e => this.updateField(e)}
-                placeholder="Digite o RA..."
               />
             </div>
           </div>
@@ -139,10 +150,10 @@ export default class UserCrud extends Component {
         <thead>
           <tr>
             <th>ID</th>
-            <th>Nome</th>
             <th>RA</th>
-            <th>DegreeId</th>
-            <th>ClassId</th>
+            <th>Nome</th>
+            <th>Degree</th>
+            <th>Class</th>
             <th>Ações</th>
           </tr>
         </thead>
@@ -158,8 +169,8 @@ export default class UserCrud extends Component {
           <td>{student.id}</td>
           <td>{student.ra}</td>
           <td>{student.name}</td>
-          <td>{student.degreeId}</td>
-          <td>{student.classId}</td>
+          <td>{getDegreeById(student.degreeId, this.state.degrees)}</td>
+          <td>{getClassById(student.classId, this.state.classes)}</td>
           <td>
             <button className="btn btn-warning" onClick={() => this.load(student)}>
               <i className="fa fa-pencil"></i>
