@@ -12,7 +12,7 @@ const headerProps = {
 };
 
 const initialState = {
-  student: { ra: 0, name: '', degreeId: 0, classId: 0 },
+  student: { ra: '', name: '', degreeId: '', classId: '' },
   list: [],
   classes: [{ id: 0, name: '' }],
   degrees: [{ id: 0, name: '' }],
@@ -66,7 +66,7 @@ export default class Student extends Component {
         <div className="row">
           <div className="col-12 col-md-6">
             <div className="form-group">
-              <label>Name</label>
+              <strong>Name</strong>
               <input
                 type="text"
                 className="form-control"
@@ -80,7 +80,7 @@ export default class Student extends Component {
 
           <div className="col-12 col-md-6">
             <div className="form-group">
-              <label>RA</label>
+              <strong>RA</strong>
               <input
                 type="text"
                 className="form-control"
@@ -95,7 +95,7 @@ export default class Student extends Component {
         <div className="row">
           <div className="col-12 col-md-6">
             <div className="form-group">
-              <label>degreeId</label>
+              <strong>degreeId</strong>
               <input
                 type="number"
                 className="form-control"
@@ -108,7 +108,7 @@ export default class Student extends Component {
 
           <div className="col-12 col-md-6">
             <div className="form-group">
-              <label>classId</label>
+              <strong>classId</strong>
               <input
                 type="number"
                 className="form-control"

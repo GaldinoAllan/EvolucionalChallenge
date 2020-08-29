@@ -15,10 +15,10 @@ const initialState = {
   relationship: {
     teacherId: '',
     matterId: '',
-    degrees: {
+    degrees: [{
       degreeId: '',
-      classes: [{ classPosition: 0 }]
-    }
+      classes: [{ classId: '' }]
+    }]
   },
   list: [],
   classes: [{ id: 0, name: '' }],
@@ -81,14 +81,14 @@ export default class Teachers extends Component {
         <div className="row">
           <div className="col-12 col-md-6">
             <div className="form-group">
-              <label>Teacher Name</label>
+              <strong>TeacherId</strong>
               <input
                 type="number"
                 className="form-control"
                 name="teacherId"
                 value={this.state.relationship.teacherId}
                 onChange={e => this.updateField(e)}
-                placeholder="Digite o TeacherId... (ex.: 1,2,3)"
+                placeholder="Digite o TeacherId... (ex.: 1)"
               // placeholder="Digite o nome do(a) professor(a)..."
               />
             </div>
@@ -96,14 +96,14 @@ export default class Teachers extends Component {
 
           <div className="col-12 col-md-6">
             <div className="form-group">
-              <label>Matéria</label>
+              <strong>MatterId</strong>
               <input
                 type="number"
                 className="form-control"
                 name="matterId"
                 value={this.state.relationship.matterId}
                 onChange={e => this.updateField(e)}
-                placeholder="Digite o MatterId... (ex.: 1,2,3)"
+                placeholder="Digite o MatterId... (ex.: 1)"
               // placeholder="Digite o nome da matéria..."
               />
             </div>
@@ -113,27 +113,55 @@ export default class Teachers extends Component {
         <div className="row">
           <div className="col-12 col-md-6">
             <div className="form-group">
-              <label>degreeId</label>
-              <input
-                type="number"
-                className="form-control"
-                name="degreeId"
-                value={this.state.relationship.degrees.degreeId}
-                onChange={e => Number(this.updateField(e))}
-              />
+              <strong>DegreeId</strong>
+              <br />
+              {
+                this.state.relationship.degrees.map(({ degreeId }) => {
+                  return (
+                    <>
+                      <label>
+                        {getById(degreeId, this.state.degrees)}
+                      </label>
+                      <input
+                        key={degreeId}
+                        type="number"
+                        className="form-control"
+                        name="degreeId"
+                        value={degreeId}
+                        onChange={e => Number(this.updateField(e))}
+                        placeholder="Digite o DegreeId... (ex.: 1,2,3)"
+                      />
+                    </>
+                  )
+                })
+              }
             </div>
           </div>
 
           <div className="col-12 col-md-6">
             <div className="form-group">
-              <label>classId</label>
-              <input
-                type="number"
-                className="form-control"
-                name="classPosition"
-                value={this.state.relationship.degrees.classes.classPosition}
-                onChange={e => Number(this.updateField(e))}
-              />
+              <strong>ClassId</strong>
+              {
+                this.state.relationship.degrees.map(({ degreeId, classes }) => {
+                  return (
+                    <div>
+                      <label>{getById(degreeId, this.state.degrees)}</label>
+                      {classes.map(({ classId }) => {
+                        return (
+                          <input
+                            type="number"
+                            className="form-control"
+                            name="classId"
+                            value={classId}
+                            onChange={e => Number(this.updateField(e))}
+                            placeholder="Digite o ClassId... (ex.: 1,2,3)"
+                          />
+                        )
+                      })}
+                    </div>
+                  )
+                })
+              }
             </div>
           </div>
         </div>
@@ -153,7 +181,7 @@ export default class Teachers extends Component {
             </button>
           </div>
         </div>
-      </div>
+      </div >
     );
   }
 
