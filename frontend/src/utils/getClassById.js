@@ -5,9 +5,13 @@ export default function getClassById(classId, classes) {
   });
 
   const classe = classeName.filter(name => {
+    let nameOfClass = ''
+
     if (name !== '') {
-      return name
+      nameOfClass = name
     }
+
+    return nameOfClass
   })
 
   return classe[0];

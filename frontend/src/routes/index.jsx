@@ -1,7 +1,7 @@
 import React from 'react';
 import { Switch, Route, Redirect } from 'react-router';
 
-import Home from '../pages/Landing/Home';
+import Home from '../pages/Landing';
 import Students from '../pages/Students';
 
 export default props =>

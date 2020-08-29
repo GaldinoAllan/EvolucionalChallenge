@@ -5,9 +5,13 @@ export default function getDegreeById(degreeId, degrees) {
   });
 
   const degree = degreeName.filter(name => {
+    let nameOfDegree = '';
+
     if (name !== '') {
-      return name
+      nameOfDegree = name;
     }
+
+    return nameOfDegree;
   })
 
   return degree[0];

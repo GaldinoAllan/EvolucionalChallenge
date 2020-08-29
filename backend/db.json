@@ -243,45 +243,38 @@
   "students": [
     {
       "id": 1,
-      "ra": 12346,
+      "ra": "12346",
       "name": "Joyce",
-      "degreeId": 1,
-      "classId": 1
+      "degreeId": "1",
+      "classId": "1"
     },
     {
       "id": 2,
-      "ra": 456798,
+      "ra": "456798",
       "name": "Luis",
-      "degreeId": 2,
-      "classId": 1
+      "degreeId": "2",
+      "classId": "1"
     },
     {
       "id": 3,
-      "ra": 752156,
+      "ra": "752156",
       "name": "Bebela",
-      "degreeId": 3,
-      "classId": 2
+      "degreeId": "3",
+      "classId": "2"
     },
     {
       "id": 4,
-      "ra": 852348,
+      "ra": "852348",
       "name": "Allan",
-      "degreeId": 4,
-      "classId": 2
+      "degreeId": "4",
+      "classId": "2"
     },
     {
-      "id": 5,
-      "ra": "4546",
-      "name": "Jean",
-      "degreeId": 6,
-      "classId": 2
-    },
-    {
-      "ra": "10",
-      "name": "Ana Carolina",
-      "degreeId": "1",
+      "ra": "1123123",
+      "name": "Jean HR",
+      "degreeId": "5",
       "classId": "6",
-      "id": 6
+      "id": 5
     }
   ],
   "teachers": [

@@ -2,8 +2,6 @@ import React from 'react';
 import Main from '../../components/Main';
 import { Component } from 'react';
 
-
-
 import api from '../../service/api'
 import getClassById from '../../utils/getClassById';
 import getDegreeById from '../../utils/getDegreeById';
@@ -18,23 +16,22 @@ const initialState = {
   student: { ra: 0, name: '', degreeId: 0, classId: 0 },
   list: [],
   classes: [{ id: 0, name: '' }],
-  degrees: [{ id: 0, name: '' }]
+  degrees: [{ id: 0, name: '' }],
+  searchDegreeIdField: '',
+  searchClassIdField: ''
 };
 
-export default class UserCrud extends Component {
+export default class Student extends Component {
   state = { ...initialState };
 
   componentWillMount() {
     api.get('students').then(response => {
-      console.log(response);
       this.setState({ list: response.data });
     });
     api.get('classes').then(response => {
-      console.log(response);
       this.setState({ classes: response.data });
     });
     api.get('degrees').then(response => {
-      console.log(response);
       this.setState({ degrees: response.data });
     });
   }
@@ -46,13 +43,13 @@ export default class UserCrud extends Component {
   save() {
     const student = this.state.student;
     if (student.id) {
-      api.put(`students/${student.id}`, student).then(resp => {
-        const list = this.getUpdatedList(resp.data);
+      api.put(`students/${student.id}`, student).then(response => {
+        const list = this.getUpdatedList(response.data);
         this.setState({ student: initialState.student, list });
       });
     } else {
-      api.post('students', student).then(resp => {
-        const list = this.getUpdatedList(resp.data);
+      api.post('students', student).then(response => {
+        const list = this.getUpdatedList(response.data);
         this.setState({ student: initialState.student, list });
       });
     }
@@ -67,7 +64,6 @@ export default class UserCrud extends Component {
   renderForm() {
     return (
       <div className="form">
-
         <div className="row">
           <div className="col-12 col-md-6">
             <div className="form-group">
@@ -102,11 +98,11 @@ export default class UserCrud extends Component {
             <div className="form-group">
               <label>degreeId</label>
               <input
-                type="text"
+                type="number"
                 className="form-control"
                 name="degreeId"
                 value={this.state.student.degreeId}
-                onChange={e => this.updateField(e)}
+                onChange={e => Number(this.updateField(e))}
               />
             </div>
           </div>
@@ -115,11 +111,11 @@ export default class UserCrud extends Component {
             <div className="form-group">
               <label>classId</label>
               <input
-                type="text"
+                type="number"
                 className="form-control"
                 name="classId"
                 value={this.state.student.classId}
-                onChange={e => this.updateField(e)}
+                onChange={e => Number(this.updateField(e))}
               />
             </div>
           </div>
@@ -144,6 +140,42 @@ export default class UserCrud extends Component {
     );
   }
 
+  renderSearchField() {
+    return (
+      <div className="form">
+        <div className="row">
+          <div className="col-12 col-md-6">
+            <div className="form-group">
+              <label>DegreeId</label>
+              <input
+                type="text"
+                className="form-control"
+                onChange={e =>
+                  this.setState({ searchDegreeIdField: e.target.value })
+                }
+                placeholder="Filtre por Degree..."
+              />
+            </div>
+          </div>
+
+          <div className="col-12 col-md-6">
+            <div className="form-group">
+              <label>ClassId</label>
+              <input
+                type="text"
+                className="form-control"
+                onChange={e =>
+                  this.setState({ searchClassIdField: e.target.value })
+                }
+                placeholder="Filtre por Class..."
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    )
+  }
+
   renderTable() {
     return (
       <table className="table mt-4">
@@ -163,7 +195,20 @@ export default class UserCrud extends Component {
   }
 
   renderRows() {
-    return this.state.list.map(student => {
+    const { list, searchDegreeIdField, searchClassIdField } = this.state;
+
+    const filteredStudentsByDegreeId = list.filter(student =>
+      String(getDegreeById(student.degreeId, this.state.degrees)).toLowerCase()
+        .includes(searchDegreeIdField.toLowerCase())
+    );
+
+    const filteredStudentsByClassId = filteredStudentsByDegreeId
+      .filter(student =>
+        String(getClassById(student.classId, this.state.classes)).toLowerCase()
+          .includes(searchClassIdField.toLowerCase())
+      );
+
+    return filteredStudentsByClassId.map(student => {
       return (
         <tr key={student.id}>
           <td>{student.id}</td>
@@ -208,6 +253,7 @@ export default class UserCrud extends Component {
     return (
       <Main {...headerProps}>
         {this.renderForm()}
+        {this.renderSearchField()}
         {this.renderTable()}
       </Main>
     );
