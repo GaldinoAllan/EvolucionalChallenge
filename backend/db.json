@@ -238,6 +238,36 @@
           ]
         }
       ]
+    },
+    {
+      "teacherId": "5",
+      "matterId": "2",
+      "degrees": [
+        {
+          "degreeId": "8",
+          "classes": [
+            {
+              "classId": "4"
+            }
+          ]
+        }
+      ],
+      "id": 5
+    },
+    {
+      "teacherId": "6",
+      "matterId": "3",
+      "degrees": [
+        {
+          "degreeId": "12",
+          "classes": [
+            {
+              "classId": "3"
+            }
+          ]
+        }
+      ],
+      "id": 6
     }
   ],
   "students": [
@@ -275,6 +305,13 @@
       "degreeId": "5",
       "classId": "6",
       "id": 5
+    },
+    {
+      "ra": "123654",
+      "name": "Rafael",
+      "degreeId": "1",
+      "classId": "1",
+      "id": 6
     }
   ],
   "teachers": [

@@ -87,6 +87,7 @@ export default class Student extends Component {
                 name="ra"
                 value={this.state.student.ra}
                 onChange={e => this.updateField(e)}
+                placeholder="Digite o RA..."
               />
             </div>
           </div>
@@ -95,27 +96,49 @@ export default class Student extends Component {
         <div className="row">
           <div className="col-12 col-md-6">
             <div className="form-group">
-              <strong>degreeId</strong>
-              <input
-                type="number"
-                className="form-control"
+              <strong>Degree</strong>
+              <select
                 name="degreeId"
-                value={this.state.student.degreeId}
-                onChange={e => Number(this.updateField(e))}
-              />
+                id="degreeId"
+                className="form-control"
+                onChange={e => this.updateField(e)}
+              >
+                <option value={this.state.student.degreeId}>
+                  {
+                    getById(this.state.student.degreeId, this.state.degrees)
+                  }
+                </option>
+                {this.state.degrees.map(degree => {
+                  return <option
+                    value={degree.id}>
+                    {degree.name}
+                  </option>
+                })}
+              </select>
             </div>
           </div>
 
           <div className="col-12 col-md-6">
             <div className="form-group">
-              <strong>classId</strong>
-              <input
-                type="number"
-                className="form-control"
+              <strong>Class</strong>
+              <select
                 name="classId"
-                value={this.state.student.classId}
-                onChange={e => Number(this.updateField(e))}
-              />
+                id="classeId"
+                className="form-control"
+                onChange={e => this.updateField(e)}
+              >
+                <option value={this.state.student.classId}>
+                  {
+                    getById(this.state.student.classId, this.state.classes)
+                  }
+                </option>
+                {this.state.classes.map(classe => {
+                  return <option
+                    value={classe.id}>
+                    {classe.name}
+                  </option>
+                })}
+              </select>
             </div>
           </div>
         </div>
