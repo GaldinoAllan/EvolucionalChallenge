@@ -2,11 +2,11 @@
 
 ## In the project backend directory, you can run:
 
-### `npm install`
+### `yarn`
 
 To install all the packages needed
 
-### `npm start`
+### `yarn start`
 
 Runs the backend of the app in the port 3001.<br />
 
@@ -25,11 +25,11 @@ Open [http://localhost:3001/teachers](http://localhost:3001/teachers) to view th
 
 ## In the project frontend directory, you can run:
 
-### `npm install`
+### `yarn`
 
 To install all the packages needed
 
-### `npm start`
+### `yarn start`
 
 Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
