@@ -3,8 +3,7 @@ import Main from '../../components/Main';
 import { Component } from 'react';
 
 import api from '../../service/api'
-import getClassById from '../../utils/getClassById';
-import getDegreeById from '../../utils/getDegreeById';
+import getById from '../../utils/getById';
 
 const headerProps = {
   icon: 'users',
@@ -198,13 +197,13 @@ export default class Student extends Component {
     const { list, searchDegreeIdField, searchClassIdField } = this.state;
 
     const filteredStudentsByDegreeId = list.filter(student =>
-      String(getDegreeById(student.degreeId, this.state.degrees)).toLowerCase()
+      String(getById(student.degreeId, this.state.degrees)).toLowerCase()
         .includes(searchDegreeIdField.toLowerCase())
     );
 
     const filteredStudentsByClassId = filteredStudentsByDegreeId
       .filter(student =>
-        String(getClassById(student.classId, this.state.classes)).toLowerCase()
+        String(getById(student.classId, this.state.classes)).toLowerCase()
           .includes(searchClassIdField.toLowerCase())
       );
 
@@ -214,8 +213,8 @@ export default class Student extends Component {
           <td>{student.id}</td>
           <td>{student.ra}</td>
           <td>{student.name}</td>
-          <td>{getDegreeById(student.degreeId, this.state.degrees)}</td>
-          <td>{getClassById(student.classId, this.state.classes)}</td>
+          <td>{getById(student.degreeId, this.state.degrees)}</td>
+          <td>{getById(student.classId, this.state.classes)}</td>
           <td>
             <button className="btn btn-warning" onClick={() => this.load(student)}>
               <i className="fa fa-pencil"></i>
