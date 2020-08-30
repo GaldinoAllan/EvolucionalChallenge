@@ -15,6 +15,8 @@ aside.menu-area {
 
 .menu a:hover {
     background: linear-gradient(135deg, var(--bg-dark) 0%, var(--bg-light) 100%);
+    color: #fff;
+    text-decoration: none;
 }
 
 @media(max-width: 768px) {

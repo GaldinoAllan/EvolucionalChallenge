@@ -240,11 +240,11 @@
       ]
     },
     {
-      "teacherId": "5",
+      "teacherId": "6",
       "matterId": "2",
       "degrees": [
         {
-          "degreeId": "8",
+          "degreeId": "4",
           "classes": [
             {
               "classId": "4"
@@ -253,21 +253,6 @@
         }
       ],
       "id": 5
-    },
-    {
-      "teacherId": "6",
-      "matterId": "3",
-      "degrees": [
-        {
-          "degreeId": "12",
-          "classes": [
-            {
-              "classId": "3"
-            }
-          ]
-        }
-      ],
-      "id": 6
     }
   ],
   "students": [

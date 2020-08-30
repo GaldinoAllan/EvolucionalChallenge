@@ -23,7 +23,7 @@ const initialState = {
 export default class Student extends Component {
   state = { ...initialState };
 
-  componentWillMount() {
+  componentDidMount() {
     api.get('students').then(response => {
       this.setState({ list: response.data });
     });
@@ -39,15 +39,15 @@ export default class Student extends Component {
     this.setState({ student: initialState.student });
   }
 
-  save() {
+  async save() {
     const student = this.state.student;
     if (student.id) {
-      api.put(`students/${student.id}`, student).then(response => {
+      await api.put(`students/${student.id}`, student).then(response => {
         const list = this.getUpdatedList(response.data);
         this.setState({ student: initialState.student, list });
       });
     } else {
-      api.post('students', student).then(response => {
+      await api.post('students', student).then(response => {
         const list = this.getUpdatedList(response.data);
         this.setState({ student: initialState.student, list });
       });
