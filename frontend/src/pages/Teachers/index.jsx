@@ -1,9 +1,11 @@
 import React from 'react';
-import Main from '../../components/Main';
 import { Component } from 'react';
+import { Link } from 'react-router-dom';
+
+import Main from '../../components/Main';
+import getById from '../../utils/getById';
 
 import api from '../../service/api';
-import getById from '../../utils/getById';
 
 const headerProps = {
   icon: 'users',
@@ -26,7 +28,7 @@ const initialState = {
 };
 
 export default class Teachers extends Component {
-  state = { ...initialState };
+  state = initialState;
 
   componentDidMount() {
     api.get('relationships').then(response => {
@@ -47,6 +49,7 @@ export default class Teachers extends Component {
   }
 
   clear() {
+    this.setState({ selectedDegree: initialState.selectedDegree });
     this.setState({ relationship: initialState.relationship });
   }
 
@@ -69,12 +72,10 @@ export default class Teachers extends Component {
 
     const list = this.getUpdatedList(response.data);
     this.setState({ relationship: initialState.relationship, list });
-
-    this.clear();
   }
 
   updateField(event) {
-    const relationship = { ...this.state.relationship };
+    const relationship = this.state.relationship;
     relationship[event.target.name] = event.target.value;
     this.setState({ relationship });
   }
@@ -84,15 +85,15 @@ export default class Teachers extends Component {
   }
 
   updateFieldClass(event) {
-    const relationship = { ...this.state.relationship };
-    // delete this.state.relationship.degrees;
+    const relationship = this.state.relationship;
+    console.log('1:', relationship.degrees);
     relationship.degrees.push({
       degreeId: this.state.selectedDegree,
       classes: [{
         classId: event.target.value
       }]
     });
-    console.log('3:', relationship);
+    console.log('2:', relationship.degrees);
   }
 
   renderForm() {
@@ -165,12 +166,12 @@ export default class Teachers extends Component {
                           className="form-control"
                           onChange={e => this.updateFieldDegree(e)}
                         >
-
-                          <option value={degreeId}>
+                          <option value=""></option>
+                          {/* <option value={degreeId}>
                             {
                               getById(degreeId, this.state.degrees)
                             }
-                          </option>
+                          </option> */}
 
                           {this.state.degrees.map(degree => {
                             return (
@@ -182,13 +183,13 @@ export default class Teachers extends Component {
                             )
                           })}
                         </select>
-                        <button
+                        {/* <button
                           className="btn btn-secondary"
                           style={{ marginLeft: 8 }}
                           onClick={() => { }}
                         >
                           <i className="fa fa-minus" />
-                        </button>
+                        </button> */}
                       </div>
                     )
                   }) : (
@@ -209,21 +210,21 @@ export default class Teachers extends Component {
                           )
                         })}
                       </select>
-                      <button
+                      {/* <button
                         className="btn btn-secondary"
                         style={{ marginLeft: 8 }}
                         onClick={() => { }}
                       >
                         <i className="fa fa-minus" />
-                      </button>
+                      </button> */}
                     </div>
                   )
               }
             </div>
-            <button className="btn btn-success" onClick={() => { }}>
+            {/* <button className="btn btn-success" onClick={() => { }}>
               <i className="fa fa-plus" />
               Add Degree
-            </button>
+            </button> */}
           </div>
 
           <div className="col-12 col-md-6">
@@ -244,11 +245,12 @@ export default class Teachers extends Component {
                                 className="form-control"
                                 onChange={e => this.updateFieldClass(e)}
                               >
-                                <option value={classId}>
+                                <option value=""></option>
+                                {/* <option value={classId}>
                                   {
                                     getById(classId, this.state.classes)
                                   }
-                                </option>
+                                </option> */}
                                 {this.state.classes.map(classe => {
                                   return <option
                                     key={classe.id}
@@ -260,10 +262,10 @@ export default class Teachers extends Component {
                             )
                           })}
                         </div>
-                        <button style={{ marginTop: 16, marginBottom: 16 }} className="btn btn-success" onClick={() => { }}>
+                        {/* <button style={{ marginTop: 16, marginBottom: 16 }} className="btn btn-success" onClick={() => { }}>
                           <i className="fa fa-plus" />
                           Add Class
-                        </button>
+                        </button> */}
                       </div>
                     )
                   }) : (
@@ -335,7 +337,19 @@ export default class Teachers extends Component {
           <td>
             {
               relationship.degrees.map(({ degreeId }) => {
-                return <div key={degreeId}>{getById(degreeId, this.state.degrees)}</div>
+                return (
+                  <Link
+                    style={{
+                      color: "#000",
+                    }}
+                    to={`/students-by-degree/${degreeId}`}
+                  >
+                    <div key={degreeId}>
+
+                      <li>{getById(degreeId, this.state.degrees)}</li>
+                    </div>
+                  </Link>
+                )
               })
             }
           </td>
@@ -357,9 +371,6 @@ export default class Teachers extends Component {
             }
           </td>
           <td>
-            <button className="btn btn-warning" onClick={() => this.load(relationship)}>
-              <i className="fa fa-pencil"></i>
-            </button>
             <button
               className="btn btn-danger ml-2"
               onClick={() => this.remove(relationship)}

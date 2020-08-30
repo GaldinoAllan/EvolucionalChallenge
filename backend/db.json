@@ -240,19 +240,42 @@
       ]
     },
     {
-      "teacherId": "6",
-      "matterId": "2",
+      "teacherId": "5",
+      "matterId": "1",
       "degrees": [
         {
-          "degreeId": "4",
+          "degreeId": "9",
           "classes": [
             {
-              "classId": "4"
+              "classId": "2"
             }
           ]
         }
       ],
       "id": 5
+    },
+    {
+      "teacherId": "6",
+      "matterId": "4",
+      "degrees": [
+        {
+          "degreeId": "9",
+          "classes": [
+            {
+              "classId": "2"
+            }
+          ]
+        },
+        {
+          "degreeId": "11",
+          "classes": [
+            {
+              "classId": "2"
+            }
+          ]
+        }
+      ],
+      "id": 6
     }
   ],
   "students": [
@@ -285,17 +308,17 @@
       "classId": "2"
     },
     {
-      "ra": "1123123",
-      "name": "Jean",
-      "degreeId": "5",
-      "classId": "6",
+      "ra": "123654",
+      "name": "Rafael",
+      "degreeId": "8",
+      "classId": "3",
       "id": 5
     },
     {
-      "ra": "123654",
-      "name": "Rafael",
-      "degreeId": "1",
-      "classId": "1",
+      "ra": "3000472",
+      "name": "Jean",
+      "degreeId": "11",
+      "classId": "5",
       "id": 6
     }
   ],
