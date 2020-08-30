@@ -110,6 +110,7 @@ export default class Student extends Component {
                 </option>
                 {this.state.degrees.map(degree => {
                   return <option
+                    key={degree.id}
                     value={degree.id}>
                     {degree.name}
                   </option>
@@ -134,6 +135,7 @@ export default class Student extends Component {
                 </option>
                 {this.state.classes.map(classe => {
                   return <option
+                    key={classe.id}
                     value={classe.id}>
                     {classe.name}
                   </option>

@@ -12,7 +12,7 @@ export default props =>
                 <i className="fa fa-user"></i> Students
             </Link>
             <Link to="/teachers">
-                <i class="fa fa-user"></i> Teachers
+                <i className="fa fa-user"></i> Teachers
             </Link>
         </nav>
     </aside>
