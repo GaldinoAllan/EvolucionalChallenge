@@ -1,5 +1,9 @@
 # Available Scripts
 
+## First go to the backend folder
+```bash
+$ cd backend
+```
 ## In the project backend directory, you can run:
 
 ### `yarn` or `npm install`
@@ -22,7 +26,10 @@ Open [http://localhost:3001/students](http://localhost:3001/students) to view th
 
 Open [http://localhost:3001/teachers](http://localhost:3001/teachers) to view the JSON of the teachers in the browser.
 
-
+## Then go to the frontend folder
+```bash
+$ cd frontend
+```
 ## In the project frontend directory, you can run:
 
 ### `yarn` or `npm install`
