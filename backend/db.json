@@ -238,44 +238,6 @@
           ]
         }
       ]
-    },
-    {
-      "teacherId": "5",
-      "matterId": "1",
-      "degrees": [
-        {
-          "degreeId": "9",
-          "classes": [
-            {
-              "classId": "2"
-            }
-          ]
-        }
-      ],
-      "id": 5
-    },
-    {
-      "teacherId": "6",
-      "matterId": "4",
-      "degrees": [
-        {
-          "degreeId": "9",
-          "classes": [
-            {
-              "classId": "2"
-            }
-          ]
-        },
-        {
-          "degreeId": "11",
-          "classes": [
-            {
-              "classId": "2"
-            }
-          ]
-        }
-      ],
-      "id": 6
     }
   ],
   "students": [
@@ -320,6 +282,2162 @@
       "degreeId": "11",
       "classId": "5",
       "id": 6
+    },
+    {
+      "ra": "654321",
+      "name": "Sirlene Galdino",
+      "degreeId": "6",
+      "classId": "3",
+      "id": 7
+    },
+    {
+      "ra": 86037,
+      "name": "Shanon",
+      "degreeId": 10,
+      "classId": 4,
+      "id": 8
+    },
+    {
+      "ra": 52352,
+      "name": "Gregory Bartell",
+      "degreeId": 11,
+      "classId": 3,
+      "id": 9
+    },
+    {
+      "ra": 91235,
+      "name": "Jacinthe Oberbrunner",
+      "degreeId": 10,
+      "classId": 1,
+      "id": 10
+    },
+    {
+      "ra": 63453,
+      "name": "Lucinda Carter",
+      "degreeId": 4,
+      "classId": 4,
+      "id": 11
+    },
+    {
+      "ra": 67534,
+      "name": "Mackenzie Ullrich",
+      "degreeId": 11,
+      "classId": 5,
+      "id": 12
+    },
+    {
+      "ra": 75988,
+      "name": "Korbin Abernathy",
+      "degreeId": 1,
+      "classId": 5,
+      "id": 13
+    },
+    {
+      "ra": 30932,
+      "name": "Levi Carter",
+      "degreeId": 2,
+      "classId": 4,
+      "id": 14
+    },
+    {
+      "ra": 41814,
+      "name": "Janelle Satterfield",
+      "degreeId": 2,
+      "classId": 5,
+      "id": 15
+    },
+    {
+      "ra": 33706,
+      "name": "Haven Muller",
+      "degreeId": 9,
+      "classId": 4,
+      "id": 16
+    },
+    {
+      "ra": 44810,
+      "name": "Dannie Oberbrunner",
+      "degreeId": 11,
+      "classId": 5,
+      "id": 17
+    },
+    {
+      "ra": 13699,
+      "name": "Daphnee Walker",
+      "degreeId": 12,
+      "classId": 4,
+      "id": 18
+    },
+    {
+      "ra": 44689,
+      "name": "Jayde Lemke",
+      "degreeId": 12,
+      "classId": 1,
+      "id": 19
+    },
+    {
+      "ra": 66101,
+      "name": "Reed D'Amore",
+      "degreeId": 13,
+      "classId": 2,
+      "id": 20
+    },
+    {
+      "ra": 88730,
+      "name": "Kristy Harber",
+      "degreeId": 2,
+      "classId": 5,
+      "id": 21
+    },
+    {
+      "ra": 13441,
+      "name": "Leola Bernier",
+      "degreeId": 1,
+      "classId": 5,
+      "id": 22
+    },
+    {
+      "ra": 71537,
+      "name": "Hector Balistreri",
+      "degreeId": 1,
+      "classId": 3,
+      "id": 23
+    },
+    {
+      "ra": 10094,
+      "name": "Shea Bauch",
+      "degreeId": 1,
+      "classId": 2,
+      "id": 24
+    },
+    {
+      "ra": 85887,
+      "name": "Christina Senger",
+      "degreeId": 10,
+      "classId": 3,
+      "id": 25
+    },
+    {
+      "ra": 20378,
+      "name": "Nelle Bogan",
+      "degreeId": 10,
+      "classId": 1,
+      "id": 26
+    },
+    {
+      "ra": 4896,
+      "name": "Rudy Conn",
+      "degreeId": 13,
+      "classId": 5,
+      "id": 27
+    },
+    {
+      "ra": 97866,
+      "name": "Serena Gleason",
+      "degreeId": 11,
+      "classId": 3,
+      "id": 28
+    },
+    {
+      "ra": 34515,
+      "name": "Rocio Konopelski",
+      "degreeId": 8,
+      "classId": 5,
+      "id": 29
+    },
+    {
+      "ra": 3515,
+      "name": "Travon Bins",
+      "degreeId": 2,
+      "classId": 4,
+      "id": 30
+    },
+    {
+      "ra": 41370,
+      "name": "Antonietta Shields",
+      "degreeId": 3,
+      "classId": 6,
+      "id": 31
+    },
+    {
+      "ra": 22810,
+      "name": "Zoey Wuckert",
+      "degreeId": 3,
+      "classId": 4,
+      "id": 32
+    },
+    {
+      "ra": 82664,
+      "name": "Reva Spencer",
+      "degreeId": 9,
+      "classId": 6,
+      "id": 33
+    },
+    {
+      "ra": 7535,
+      "name": "Lesley Luettgen",
+      "degreeId": 6,
+      "classId": 1,
+      "id": 34
+    },
+    {
+      "ra": 65936,
+      "name": "Cordelia Hauck",
+      "degreeId": 7,
+      "classId": 4,
+      "id": 35
+    },
+    {
+      "ra": 96227,
+      "name": "Flavie Jaskolski",
+      "degreeId": 3,
+      "classId": 5,
+      "id": 36
+    },
+    {
+      "ra": 8191,
+      "name": "Rigoberto Bogan",
+      "degreeId": 9,
+      "classId": 4,
+      "id": 37
+    },
+    {
+      "ra": 28842,
+      "name": "Darrion Pfeffer",
+      "degreeId": 5,
+      "classId": 1,
+      "id": 38
+    },
+    {
+      "ra": 71007,
+      "name": "Drew Welch",
+      "degreeId": 10,
+      "classId": 2,
+      "id": 39
+    },
+    {
+      "ra": 82045,
+      "name": "Kallie Stracke",
+      "degreeId": 7,
+      "classId": 5,
+      "id": 40
+    },
+    {
+      "ra": 17379,
+      "name": "Cheyenne Rippin",
+      "degreeId": 10,
+      "classId": 6,
+      "id": 41
+    },
+    {
+      "ra": 59739,
+      "name": "Nick Grimes",
+      "degreeId": 5,
+      "classId": 3,
+      "id": 42
+    },
+    {
+      "ra": 55242,
+      "name": "Chandler Heathcote",
+      "degreeId": 10,
+      "classId": 4,
+      "id": 43
+    },
+    {
+      "ra": 57488,
+      "name": "Ashlynn O'Conner",
+      "degreeId": 9,
+      "classId": 3,
+      "id": 44
+    },
+    {
+      "ra": 54609,
+      "name": "Ariel Kulas",
+      "degreeId": 8,
+      "classId": 2,
+      "id": 45
+    },
+    {
+      "ra": 89846,
+      "name": "Wilmer Shanahan",
+      "degreeId": 8,
+      "classId": 3,
+      "id": 46
+    },
+    {
+      "ra": 3707,
+      "name": "Novella Koss",
+      "degreeId": 6,
+      "classId": 5,
+      "id": 47
+    },
+    {
+      "ra": 53062,
+      "name": "Cheyenne Marquardt",
+      "degreeId": 8,
+      "classId": 3,
+      "id": 48
+    },
+    {
+      "ra": 88380,
+      "name": "Jovanny Miller",
+      "degreeId": 2,
+      "classId": 1,
+      "id": 49
+    },
+    {
+      "ra": 8512,
+      "name": "Amie Waelchi",
+      "degreeId": 5,
+      "classId": 6,
+      "id": 50
+    },
+    {
+      "ra": 40670,
+      "name": "Anne Kuhlman",
+      "degreeId": 1,
+      "classId": 1,
+      "id": 51
+    },
+    {
+      "ra": 7687,
+      "name": "Daija Johns",
+      "degreeId": 2,
+      "classId": 1,
+      "id": 52
+    },
+    {
+      "ra": 83156,
+      "name": "Margret Kertzmann",
+      "degreeId": 12,
+      "classId": 4,
+      "id": 53
+    },
+    {
+      "ra": 93086,
+      "name": "Nestor Hintz",
+      "degreeId": 2,
+      "classId": 6,
+      "id": 54
+    },
+    {
+      "ra": 87662,
+      "name": "Dax Satterfield",
+      "degreeId": 6,
+      "classId": 5,
+      "id": 55
+    },
+    {
+      "ra": 43863,
+      "name": "Giovanni Collins",
+      "degreeId": 13,
+      "classId": 4,
+      "id": 56
+    },
+    {
+      "ra": 51502,
+      "name": "Deangelo Rempel",
+      "degreeId": 1,
+      "classId": 3,
+      "id": 57
+    },
+    {
+      "ra": 77674,
+      "name": "Brooks Gusikowski",
+      "degreeId": 12,
+      "classId": 3,
+      "id": 58
+    },
+    {
+      "ra": 70127,
+      "name": "Nels Baumbach",
+      "degreeId": 9,
+      "classId": 3,
+      "id": 59
+    },
+    {
+      "ra": 86716,
+      "name": "Isabel Robel",
+      "degreeId": 11,
+      "classId": 2,
+      "id": 60
+    },
+    {
+      "ra": 71216,
+      "name": "Margie Christiansen",
+      "degreeId": 4,
+      "classId": 6,
+      "id": 61
+    },
+    {
+      "ra": 8541,
+      "name": "Jean Bartoletti",
+      "degreeId": 6,
+      "classId": 3,
+      "id": 62
+    },
+    {
+      "ra": 60151,
+      "name": "Alison Homenick",
+      "degreeId": 2,
+      "classId": 2,
+      "id": 63
+    },
+    {
+      "ra": 55003,
+      "name": "Marlee Kreiger",
+      "degreeId": 13,
+      "classId": 5,
+      "id": 64
+    },
+    {
+      "ra": 11195,
+      "name": "Thaddeus Huels",
+      "degreeId": 6,
+      "classId": 2,
+      "id": 65
+    },
+    {
+      "ra": 92285,
+      "name": "Herbert Harris",
+      "degreeId": 4,
+      "classId": 2,
+      "id": 66
+    },
+    {
+      "ra": 94027,
+      "name": "Declan Harber",
+      "degreeId": 8,
+      "classId": 1,
+      "id": 67
+    },
+    {
+      "ra": 55592,
+      "name": "Susie Padberg",
+      "degreeId": 1,
+      "classId": 4,
+      "id": 68
+    },
+    {
+      "ra": 98328,
+      "name": "Cierra Kautzer",
+      "degreeId": 12,
+      "classId": 3,
+      "id": 69
+    },
+    {
+      "ra": 60072,
+      "name": "Helene Willms",
+      "degreeId": 8,
+      "classId": 4,
+      "id": 70
+    },
+    {
+      "ra": 63735,
+      "name": "Camille Rempel",
+      "degreeId": 2,
+      "classId": 4,
+      "id": 71
+    },
+    {
+      "ra": 6435,
+      "name": "Duane Bernhard",
+      "degreeId": 12,
+      "classId": 3,
+      "id": 72
+    },
+    {
+      "ra": 92581,
+      "name": "Tabitha Trantow",
+      "degreeId": 1,
+      "classId": 2,
+      "id": 73
+    },
+    {
+      "ra": 22297,
+      "name": "Devyn Leffler",
+      "degreeId": 13,
+      "classId": 4,
+      "id": 74
+    },
+    {
+      "ra": 48198,
+      "name": "Rory Batz",
+      "degreeId": 1,
+      "classId": 6,
+      "id": 75
+    },
+    {
+      "ra": 95926,
+      "name": "Sadye Luettgen",
+      "degreeId": 6,
+      "classId": 6,
+      "id": 76
+    },
+    {
+      "ra": 72138,
+      "name": "Marcelino Heathcote",
+      "degreeId": 10,
+      "classId": 3,
+      "id": 77
+    },
+    {
+      "ra": 91145,
+      "name": "Lempi Lueilwitz",
+      "degreeId": 2,
+      "classId": 5,
+      "id": 78
+    },
+    {
+      "ra": 65639,
+      "name": "Rachel Altenwerth",
+      "degreeId": 5,
+      "classId": 6,
+      "id": 79
+    },
+    {
+      "ra": 72366,
+      "name": "Floy Weber",
+      "degreeId": 3,
+      "classId": 4,
+      "id": 80
+    },
+    {
+      "ra": 6391,
+      "name": "Kristofer Harris",
+      "degreeId": 1,
+      "classId": 6,
+      "id": 81
+    },
+    {
+      "ra": 7372,
+      "name": "Vicky Wunsch",
+      "degreeId": 1,
+      "classId": 5,
+      "id": 82
+    },
+    {
+      "ra": 3632,
+      "name": "Will Haley",
+      "degreeId": 2,
+      "classId": 5,
+      "id": 83
+    },
+    {
+      "ra": 76184,
+      "name": "Tiffany D'Amore",
+      "degreeId": 4,
+      "classId": 3,
+      "id": 84
+    },
+    {
+      "ra": 58325,
+      "name": "Ayden Kuhn",
+      "degreeId": 10,
+      "classId": 4,
+      "id": 85
+    },
+    {
+      "ra": 94042,
+      "name": "Hershel Olson",
+      "degreeId": 8,
+      "classId": 3,
+      "id": 86
+    },
+    {
+      "ra": 43043,
+      "name": "Kiley Kris",
+      "degreeId": 8,
+      "classId": 1,
+      "id": 87
+    },
+    {
+      "ra": 95618,
+      "name": "Johnathon Fahey",
+      "degreeId": 8,
+      "classId": 5,
+      "id": 88
+    },
+    {
+      "ra": 93694,
+      "name": "Gregg Marquardt",
+      "degreeId": 11,
+      "classId": 3,
+      "id": 89
+    },
+    {
+      "ra": 40863,
+      "name": "Connie Schumm",
+      "degreeId": 13,
+      "classId": 4,
+      "id": 90
+    },
+    {
+      "ra": 60571,
+      "name": "Justice Dooley",
+      "degreeId": 2,
+      "classId": 4,
+      "id": 91
+    },
+    {
+      "ra": 92013,
+      "name": "Gia Torp",
+      "degreeId": 7,
+      "classId": 1,
+      "id": 92
+    },
+    {
+      "ra": 66337,
+      "name": "Mauricio Kozey",
+      "degreeId": 3,
+      "classId": 6,
+      "id": 93
+    },
+    {
+      "ra": 31188,
+      "name": "Pascale Lynch",
+      "degreeId": 11,
+      "classId": 4,
+      "id": 94
+    },
+    {
+      "ra": 42966,
+      "name": "Chad Heaney",
+      "degreeId": 5,
+      "classId": 2,
+      "id": 95
+    },
+    {
+      "ra": 71975,
+      "name": "Cielo Krajcik",
+      "degreeId": 5,
+      "classId": 3,
+      "id": 96
+    },
+    {
+      "ra": 41588,
+      "name": "Thad O'Hara",
+      "degreeId": 12,
+      "classId": 5,
+      "id": 97
+    },
+    {
+      "ra": 27866,
+      "name": "Anya Mills",
+      "degreeId": 12,
+      "classId": 5,
+      "id": 98
+    },
+    {
+      "ra": 55096,
+      "name": "Erin Barrows",
+      "degreeId": 6,
+      "classId": 3,
+      "id": 99
+    },
+    {
+      "ra": 25156,
+      "name": "Bridie Lehner",
+      "degreeId": 1,
+      "classId": 4,
+      "id": 100
+    },
+    {
+      "ra": 59555,
+      "name": "Bruce Ernser",
+      "degreeId": 2,
+      "classId": 2,
+      "id": 101
+    },
+    {
+      "ra": 17901,
+      "name": "Addison Bruen",
+      "degreeId": 8,
+      "classId": 1,
+      "id": 102
+    },
+    {
+      "ra": 84369,
+      "name": "Lina Weimann",
+      "degreeId": 7,
+      "classId": 2,
+      "id": 103
+    },
+    {
+      "ra": 32959,
+      "name": "Kellen Heller",
+      "degreeId": 4,
+      "classId": 4,
+      "id": 104
+    },
+    {
+      "ra": 64738,
+      "name": "Fredrick Morar",
+      "degreeId": 9,
+      "classId": 6,
+      "id": 105
+    },
+    {
+      "ra": 68846,
+      "name": "Johnathan Kshlerin",
+      "degreeId": 9,
+      "classId": 4,
+      "id": 106
+    },
+    {
+      "ra": 44402,
+      "name": "Pauline Spencer",
+      "degreeId": 7,
+      "classId": 3,
+      "id": 107
+    },
+    {
+      "ra": 26916,
+      "name": "Ryleigh Beer",
+      "degreeId": 6,
+      "classId": 6,
+      "id": 108
+    },
+    {
+      "ra": 17593,
+      "name": "Madison Homenick",
+      "degreeId": 6,
+      "classId": 6,
+      "id": 109
+    },
+    {
+      "ra": 46905,
+      "name": "Jacey Hermann",
+      "degreeId": 2,
+      "classId": 1,
+      "id": 110
+    },
+    {
+      "ra": 15256,
+      "name": "Charles Kuhic",
+      "degreeId": 5,
+      "classId": 6,
+      "id": 111
+    },
+    {
+      "ra": 28120,
+      "name": "Vladimir Crona",
+      "degreeId": 5,
+      "classId": 2,
+      "id": 112
+    },
+    {
+      "ra": 16561,
+      "name": "Emerson Russel",
+      "degreeId": 12,
+      "classId": 2,
+      "id": 113
+    },
+    {
+      "ra": 94570,
+      "name": "Noemie Flatley",
+      "degreeId": 10,
+      "classId": 2,
+      "id": 114
+    },
+    {
+      "ra": 91162,
+      "name": "Hazel Connelly",
+      "degreeId": 13,
+      "classId": 1,
+      "id": 115
+    },
+    {
+      "ra": 75722,
+      "name": "Jason Hartmann",
+      "degreeId": 4,
+      "classId": 2,
+      "id": 116
+    },
+    {
+      "ra": 71848,
+      "name": "Randal Cormier",
+      "degreeId": 6,
+      "classId": 3,
+      "id": 117
+    },
+    {
+      "ra": 58971,
+      "name": "Raymond Emard",
+      "degreeId": 12,
+      "classId": 5,
+      "id": 118
+    },
+    {
+      "ra": 23850,
+      "name": "Jedidiah McDermott",
+      "degreeId": 7,
+      "classId": 5,
+      "id": 119
+    },
+    {
+      "ra": 76568,
+      "name": "Sonya Bartell",
+      "degreeId": 10,
+      "classId": 4,
+      "id": 120
+    },
+    {
+      "ra": 24037,
+      "name": "Hilbert Mraz",
+      "degreeId": 4,
+      "classId": 5,
+      "id": 121
+    },
+    {
+      "ra": 27924,
+      "name": "Napoleon Olson",
+      "degreeId": 2,
+      "classId": 3,
+      "id": 122
+    },
+    {
+      "ra": 5499,
+      "name": "Luella Rath",
+      "degreeId": 1,
+      "classId": 4,
+      "id": 123
+    },
+    {
+      "ra": 33761,
+      "name": "Mia Reichel",
+      "degreeId": 10,
+      "classId": 5,
+      "id": 124
+    },
+    {
+      "ra": 8814,
+      "name": "Adrain Bradtke",
+      "degreeId": 5,
+      "classId": 3,
+      "id": 125
+    },
+    {
+      "ra": 14238,
+      "name": "Rebeka Krajcik",
+      "degreeId": 11,
+      "classId": 1,
+      "id": 126
+    },
+    {
+      "ra": 68979,
+      "name": "Genoveva Franecki",
+      "degreeId": 4,
+      "classId": 4,
+      "id": 127
+    },
+    {
+      "ra": 49695,
+      "name": "Lelia Weissnat",
+      "degreeId": 12,
+      "classId": 3,
+      "id": 128
+    },
+    {
+      "ra": 68815,
+      "name": "Anne Mueller",
+      "degreeId": 6,
+      "classId": 6,
+      "id": 129
+    },
+    {
+      "ra": 99646,
+      "name": "Shaina Greenholt",
+      "degreeId": 6,
+      "classId": 2,
+      "id": 130
+    },
+    {
+      "ra": 98560,
+      "name": "Marjorie Crooks",
+      "degreeId": 11,
+      "classId": 3,
+      "id": 131
+    },
+    {
+      "ra": 64979,
+      "name": "Yesenia Grimes",
+      "degreeId": 9,
+      "classId": 4,
+      "id": 132
+    },
+    {
+      "ra": 32204,
+      "name": "Henry Shanahan",
+      "degreeId": 3,
+      "classId": 6,
+      "id": 133
+    },
+    {
+      "ra": 18941,
+      "name": "Bill Beer",
+      "degreeId": 1,
+      "classId": 2,
+      "id": 134
+    },
+    {
+      "ra": 43755,
+      "name": "Jacynthe Howe",
+      "degreeId": 1,
+      "classId": 4,
+      "id": 135
+    },
+    {
+      "ra": 89797,
+      "name": "Effie Moen",
+      "degreeId": 4,
+      "classId": 1,
+      "id": 136
+    },
+    {
+      "ra": 96208,
+      "name": "Maxine Marquardt",
+      "degreeId": 3,
+      "classId": 1,
+      "id": 137
+    },
+    {
+      "ra": 8418,
+      "name": "Gerard Crooks",
+      "degreeId": 5,
+      "classId": 3,
+      "id": 138
+    },
+    {
+      "ra": 19183,
+      "name": "Kareem Davis",
+      "degreeId": 8,
+      "classId": 1,
+      "id": 139
+    },
+    {
+      "ra": 49784,
+      "name": "Alek Blick",
+      "degreeId": 12,
+      "classId": 3,
+      "id": 140
+    },
+    {
+      "ra": 56835,
+      "name": "Miles Volkman",
+      "degreeId": 6,
+      "classId": 2,
+      "id": 141
+    },
+    {
+      "ra": 62128,
+      "name": "Elijah Kling",
+      "degreeId": 11,
+      "classId": 6,
+      "id": 142
+    },
+    {
+      "ra": 27868,
+      "name": "Ariel Auer",
+      "degreeId": 1,
+      "classId": 3,
+      "id": 143
+    },
+    {
+      "ra": 73555,
+      "name": "Albin Hudson",
+      "degreeId": 11,
+      "classId": 1,
+      "id": 144
+    },
+    {
+      "ra": 56909,
+      "name": "Sylvan Watsica",
+      "degreeId": 11,
+      "classId": 1,
+      "id": 145
+    },
+    {
+      "ra": 43603,
+      "name": "Bonnie Konopelski",
+      "degreeId": 12,
+      "classId": 3,
+      "id": 146
+    },
+    {
+      "ra": 82620,
+      "name": "Lyla Nolan",
+      "degreeId": 11,
+      "classId": 6,
+      "id": 147
+    },
+    {
+      "ra": 57167,
+      "name": "Braxton Lynch",
+      "degreeId": 9,
+      "classId": 4,
+      "id": 148
+    },
+    {
+      "ra": 85637,
+      "name": "Tremaine Altenwerth",
+      "degreeId": 7,
+      "classId": 6,
+      "id": 149
+    },
+    {
+      "ra": 52910,
+      "name": "Anne Funk",
+      "degreeId": 4,
+      "classId": 1,
+      "id": 150
+    },
+    {
+      "ra": 17619,
+      "name": "Michelle Feil",
+      "degreeId": 8,
+      "classId": 5,
+      "id": 151
+    },
+    {
+      "ra": 73894,
+      "name": "Wendell Lockman",
+      "degreeId": 11,
+      "classId": 2,
+      "id": 152
+    },
+    {
+      "ra": 63604,
+      "name": "Juwan Conroy",
+      "degreeId": 12,
+      "classId": 1,
+      "id": 153
+    },
+    {
+      "ra": 4325,
+      "name": "Reid Kessler",
+      "degreeId": 4,
+      "classId": 3,
+      "id": 154
+    },
+    {
+      "ra": 84558,
+      "name": "Paolo O'Kon",
+      "degreeId": 12,
+      "classId": 4,
+      "id": 155
+    },
+    {
+      "ra": 76723,
+      "name": "Brian Schimmel",
+      "degreeId": 8,
+      "classId": 6,
+      "id": 156
+    },
+    {
+      "ra": 5298,
+      "name": "Natasha Becker",
+      "degreeId": 13,
+      "classId": 3,
+      "id": 157
+    },
+    {
+      "ra": 10126,
+      "name": "Jaida Lebsack",
+      "degreeId": 4,
+      "classId": 1,
+      "id": 158
+    },
+    {
+      "ra": 96616,
+      "name": "Benton Klein",
+      "degreeId": 10,
+      "classId": 1,
+      "id": 159
+    },
+    {
+      "ra": 69643,
+      "name": "Bethany Lang",
+      "degreeId": 11,
+      "classId": 2,
+      "id": 160
+    },
+    {
+      "ra": 11711,
+      "name": "Durward Berge",
+      "degreeId": 13,
+      "classId": 3,
+      "id": 161
+    },
+    {
+      "ra": 750,
+      "name": "Nona Feest",
+      "degreeId": 3,
+      "classId": 3,
+      "id": 162
+    },
+    {
+      "ra": 34980,
+      "name": "Alisa Cummings",
+      "degreeId": 10,
+      "classId": 6,
+      "id": 163
+    },
+    {
+      "ra": 87175,
+      "name": "Phyllis Emard",
+      "degreeId": 6,
+      "classId": 2,
+      "id": 164
+    },
+    {
+      "ra": 25274,
+      "name": "Dillon Hermann",
+      "degreeId": 10,
+      "classId": 4,
+      "id": 165
+    },
+    {
+      "ra": 58251,
+      "name": "Barry Schmitt",
+      "degreeId": 5,
+      "classId": 3,
+      "id": 166
+    },
+    {
+      "ra": 25053,
+      "name": "Joesph Zboncak",
+      "degreeId": 4,
+      "classId": 5,
+      "id": 167
+    },
+    {
+      "ra": 63757,
+      "name": "Douglas Friesen",
+      "degreeId": 6,
+      "classId": 3,
+      "id": 168
+    },
+    {
+      "ra": 8215,
+      "name": "Jaydon Mitchell",
+      "degreeId": 7,
+      "classId": 2,
+      "id": 169
+    },
+    {
+      "ra": 97689,
+      "name": "Serenity Heidenreich",
+      "degreeId": 4,
+      "classId": 1,
+      "id": 170
+    },
+    {
+      "ra": 57989,
+      "name": "Natasha Johnston",
+      "degreeId": 12,
+      "classId": 2,
+      "id": 171
+    },
+    {
+      "ra": 21102,
+      "name": "Terrell Wintheiser",
+      "degreeId": 6,
+      "classId": 5,
+      "id": 172
+    },
+    {
+      "ra": 93196,
+      "name": "Dock Koelpin",
+      "degreeId": 11,
+      "classId": 2,
+      "id": 173
+    },
+    {
+      "ra": 66957,
+      "name": "Ena Schiller",
+      "degreeId": 9,
+      "classId": 3,
+      "id": 174
+    },
+    {
+      "ra": 44034,
+      "name": "Adah O'Hara",
+      "degreeId": 13,
+      "classId": 2,
+      "id": 175
+    },
+    {
+      "ra": 44249,
+      "name": "Shania Ebert",
+      "degreeId": 7,
+      "classId": 5,
+      "id": 176
+    },
+    {
+      "ra": 32755,
+      "name": "Jettie Sanford",
+      "degreeId": 12,
+      "classId": 3,
+      "id": 177
+    },
+    {
+      "ra": 20717,
+      "name": "Lucinda Dare",
+      "degreeId": 13,
+      "classId": 1,
+      "id": 178
+    },
+    {
+      "ra": 2095,
+      "name": "Jettie Schaefer",
+      "degreeId": 5,
+      "classId": 1,
+      "id": 179
+    },
+    {
+      "ra": 71770,
+      "name": "Jacinto Jenkins",
+      "degreeId": 2,
+      "classId": 2,
+      "id": 180
+    },
+    {
+      "ra": 2421,
+      "name": "Garry Dach",
+      "degreeId": 11,
+      "classId": 1,
+      "id": 181
+    },
+    {
+      "ra": 67638,
+      "name": "Alvena Streich",
+      "degreeId": 10,
+      "classId": 1,
+      "id": 182
+    },
+    {
+      "ra": 11571,
+      "name": "Ines Stehr",
+      "degreeId": 10,
+      "classId": 1,
+      "id": 183
+    },
+    {
+      "ra": 46276,
+      "name": "Bell Zemlak",
+      "degreeId": 2,
+      "classId": 4,
+      "id": 184
+    },
+    {
+      "ra": 79555,
+      "name": "Mac Russel",
+      "degreeId": 4,
+      "classId": 3,
+      "id": 185
+    },
+    {
+      "ra": 70456,
+      "name": "Ella Mayer",
+      "degreeId": 3,
+      "classId": 2,
+      "id": 186
+    },
+    {
+      "ra": 69416,
+      "name": "Golden Satterfield",
+      "degreeId": 8,
+      "classId": 3,
+      "id": 187
+    },
+    {
+      "ra": 19295,
+      "name": "Kenneth Stamm",
+      "degreeId": 8,
+      "classId": 3,
+      "id": 188
+    },
+    {
+      "ra": 21656,
+      "name": "Bulah Vandervort",
+      "degreeId": 8,
+      "classId": 3,
+      "id": 189
+    },
+    {
+      "ra": 22128,
+      "name": "Linnie Cassin",
+      "degreeId": 6,
+      "classId": 1,
+      "id": 190
+    },
+    {
+      "ra": 77705,
+      "name": "Afton Hills",
+      "degreeId": 11,
+      "classId": 6,
+      "id": 191
+    },
+    {
+      "ra": 30792,
+      "name": "Dominique Block",
+      "degreeId": 6,
+      "classId": 4,
+      "id": 192
+    },
+    {
+      "ra": 35148,
+      "name": "Justyn Crona",
+      "degreeId": 2,
+      "classId": 5,
+      "id": 193
+    },
+    {
+      "ra": 64799,
+      "name": "Marques Hessel",
+      "degreeId": 12,
+      "classId": 4,
+      "id": 194
+    },
+    {
+      "ra": 66134,
+      "name": "Penelope Sporer",
+      "degreeId": 12,
+      "classId": 5,
+      "id": 195
+    },
+    {
+      "ra": 18446,
+      "name": "Arnulfo Schiller",
+      "degreeId": 13,
+      "classId": 1,
+      "id": 196
+    },
+    {
+      "ra": 23948,
+      "name": "Amina Parisian",
+      "degreeId": 12,
+      "classId": 5,
+      "id": 197
+    },
+    {
+      "ra": 61552,
+      "name": "Melyna Hayes",
+      "degreeId": 10,
+      "classId": 5,
+      "id": 198
+    },
+    {
+      "ra": 70204,
+      "name": "Bianka Reinger",
+      "degreeId": 12,
+      "classId": 5,
+      "id": 199
+    },
+    {
+      "ra": 85546,
+      "name": "Moshe Nader",
+      "degreeId": 12,
+      "classId": 3,
+      "id": 200
+    },
+    {
+      "ra": 55921,
+      "name": "Kolby Hackett",
+      "degreeId": 1,
+      "classId": 4,
+      "id": 201
+    },
+    {
+      "ra": 84893,
+      "name": "Nicholas Gutkowski",
+      "degreeId": 5,
+      "classId": 5,
+      "id": 202
+    },
+    {
+      "ra": 44104,
+      "name": "Leann Breitenberg",
+      "degreeId": 9,
+      "classId": 5,
+      "id": 203
+    },
+    {
+      "ra": 61101,
+      "name": "Leonor Barrows",
+      "degreeId": 13,
+      "classId": 6,
+      "id": 204
+    },
+    {
+      "ra": 70947,
+      "name": "Dayton Bayer",
+      "degreeId": 5,
+      "classId": 6,
+      "id": 205
+    },
+    {
+      "ra": 8813,
+      "name": "Magnolia Jenkins",
+      "degreeId": 1,
+      "classId": 2,
+      "id": 206
+    },
+    {
+      "ra": 42344,
+      "name": "Ciara Ryan",
+      "degreeId": 8,
+      "classId": 4,
+      "id": 207
+    },
+    {
+      "ra": 98712,
+      "name": "Krista Franecki",
+      "degreeId": 10,
+      "classId": 6,
+      "id": 208
+    },
+    {
+      "ra": 86243,
+      "name": "Jordi Wunsch",
+      "degreeId": 6,
+      "classId": 3,
+      "id": 209
+    },
+    {
+      "ra": 77563,
+      "name": "Omari Grant",
+      "degreeId": 3,
+      "classId": 3,
+      "id": 210
+    },
+    {
+      "ra": 91600,
+      "name": "Lela Keebler",
+      "degreeId": 10,
+      "classId": 1,
+      "id": 211
+    },
+    {
+      "ra": 53046,
+      "name": "Tyrel Wuckert",
+      "degreeId": 8,
+      "classId": 5,
+      "id": 212
+    },
+    {
+      "ra": 62193,
+      "name": "Stella Metz",
+      "degreeId": 9,
+      "classId": 1,
+      "id": 213
+    },
+    {
+      "ra": 53981,
+      "name": "Hattie Beier",
+      "degreeId": 8,
+      "classId": 6,
+      "id": 214
+    },
+    {
+      "ra": 93751,
+      "name": "Elvera Graham",
+      "degreeId": 9,
+      "classId": 5,
+      "id": 215
+    },
+    {
+      "ra": 33202,
+      "name": "Abagail Hessel",
+      "degreeId": 6,
+      "classId": 5,
+      "id": 216
+    },
+    {
+      "ra": 92766,
+      "name": "Jovany Olson",
+      "degreeId": 10,
+      "classId": 3,
+      "id": 217
+    },
+    {
+      "ra": 55342,
+      "name": "Jamar Blanda",
+      "degreeId": 2,
+      "classId": 3,
+      "id": 218
+    },
+    {
+      "ra": 73640,
+      "name": "Drew Miller",
+      "degreeId": 9,
+      "classId": 1,
+      "id": 219
+    },
+    {
+      "ra": 53259,
+      "name": "Euna Graham",
+      "degreeId": 12,
+      "classId": 1,
+      "id": 220
+    },
+    {
+      "ra": 25004,
+      "name": "Retha Parker",
+      "degreeId": 3,
+      "classId": 1,
+      "id": 221
+    },
+    {
+      "ra": 76062,
+      "name": "Avery Gorczany",
+      "degreeId": 8,
+      "classId": 2,
+      "id": 222
+    },
+    {
+      "ra": 15743,
+      "name": "Anna Kreiger",
+      "degreeId": 11,
+      "classId": 1,
+      "id": 223
+    },
+    {
+      "ra": 88432,
+      "name": "Wilton Hills",
+      "degreeId": 2,
+      "classId": 5,
+      "id": 224
+    },
+    {
+      "ra": 10387,
+      "name": "Edwina Rowe",
+      "degreeId": 10,
+      "classId": 5,
+      "id": 225
+    },
+    {
+      "ra": 88942,
+      "name": "Arielle Veum",
+      "degreeId": 6,
+      "classId": 5,
+      "id": 226
+    },
+    {
+      "ra": 57086,
+      "name": "Araceli Harvey",
+      "degreeId": 6,
+      "classId": 5,
+      "id": 227
+    },
+    {
+      "ra": 94347,
+      "name": "Wiley Heathcote",
+      "degreeId": 5,
+      "classId": 4,
+      "id": 228
+    },
+    {
+      "ra": 67562,
+      "name": "Lucy Flatley",
+      "degreeId": 11,
+      "classId": 6,
+      "id": 229
+    },
+    {
+      "ra": 93567,
+      "name": "Rhiannon Monahan",
+      "degreeId": 10,
+      "classId": 3,
+      "id": 230
+    },
+    {
+      "ra": 63553,
+      "name": "Domingo Balistreri",
+      "degreeId": 2,
+      "classId": 4,
+      "id": 231
+    },
+    {
+      "ra": 54356,
+      "name": "Everardo Stark",
+      "degreeId": 6,
+      "classId": 3,
+      "id": 232
+    },
+    {
+      "ra": 72630,
+      "name": "Hanna Reichert",
+      "degreeId": 9,
+      "classId": 1,
+      "id": 233
+    },
+    {
+      "ra": 12637,
+      "name": "Diego Will",
+      "degreeId": 7,
+      "classId": 3,
+      "id": 234
+    },
+    {
+      "ra": 35149,
+      "name": "Silas Wilkinson",
+      "degreeId": 3,
+      "classId": 6,
+      "id": 235
+    },
+    {
+      "ra": 1920,
+      "name": "Jesus O'Keefe",
+      "degreeId": 3,
+      "classId": 2,
+      "id": 236
+    },
+    {
+      "ra": 80823,
+      "name": "Steve Hilpert",
+      "degreeId": 4,
+      "classId": 6,
+      "id": 237
+    },
+    {
+      "ra": 54191,
+      "name": "Jennifer Corkery",
+      "degreeId": 13,
+      "classId": 1,
+      "id": 238
+    },
+    {
+      "ra": 90,
+      "name": "Lyda Douglas",
+      "degreeId": 5,
+      "classId": 5,
+      "id": 239
+    },
+    {
+      "ra": 90329,
+      "name": "Lucinda Jaskolski",
+      "degreeId": 10,
+      "classId": 5,
+      "id": 240
+    },
+    {
+      "ra": 97949,
+      "name": "Alisa Boehm",
+      "degreeId": 5,
+      "classId": 1,
+      "id": 241
+    },
+    {
+      "ra": 83896,
+      "name": "Emie Quitzon",
+      "degreeId": 4,
+      "classId": 2,
+      "id": 242
+    },
+    {
+      "ra": 3958,
+      "name": "Muhammad Dickens",
+      "degreeId": 9,
+      "classId": 5,
+      "id": 243
+    },
+    {
+      "ra": 97396,
+      "name": "Vada Emard",
+      "degreeId": 10,
+      "classId": 4,
+      "id": 244
+    },
+    {
+      "ra": 36017,
+      "name": "Anna Mueller",
+      "degreeId": 5,
+      "classId": 4,
+      "id": 245
+    },
+    {
+      "ra": 94101,
+      "name": "Daron Dicki",
+      "degreeId": 13,
+      "classId": 5,
+      "id": 246
+    },
+    {
+      "ra": 7188,
+      "name": "Ransom Hegmann",
+      "degreeId": 13,
+      "classId": 2,
+      "id": 247
+    },
+    {
+      "ra": 33949,
+      "name": "Armando Thiel",
+      "degreeId": 10,
+      "classId": 5,
+      "id": 248
+    },
+    {
+      "ra": 56968,
+      "name": "Sherman Powlowski",
+      "degreeId": 2,
+      "classId": 4,
+      "id": 249
+    },
+    {
+      "ra": 1740,
+      "name": "Anais Konopelski",
+      "degreeId": 9,
+      "classId": 3,
+      "id": 250
+    },
+    {
+      "ra": 55008,
+      "name": "Kimberly Effertz",
+      "degreeId": 2,
+      "classId": 4,
+      "id": 251
+    },
+    {
+      "ra": 66789,
+      "name": "Alexanne Jakubowski",
+      "degreeId": 9,
+      "classId": 3,
+      "id": 252
+    },
+    {
+      "ra": 23575,
+      "name": "Glenna Gutkowski",
+      "degreeId": 5,
+      "classId": 2,
+      "id": 253
+    },
+    {
+      "ra": 34699,
+      "name": "Skylar Nienow",
+      "degreeId": 11,
+      "classId": 3,
+      "id": 254
+    },
+    {
+      "ra": 13680,
+      "name": "Mylene Denesik",
+      "degreeId": 1,
+      "classId": 6,
+      "id": 255
+    },
+    {
+      "ra": 52479,
+      "name": "Jarvis Hansen",
+      "degreeId": 8,
+      "classId": 6,
+      "id": 256
+    },
+    {
+      "ra": 22445,
+      "name": "Leonard Rippin",
+      "degreeId": 12,
+      "classId": 5,
+      "id": 257
+    },
+    {
+      "ra": 48781,
+      "name": "Gerda Tremblay",
+      "degreeId": 7,
+      "classId": 1,
+      "id": 258
+    },
+    {
+      "ra": 17798,
+      "name": "Daphne Metz",
+      "degreeId": 12,
+      "classId": 6,
+      "id": 259
+    },
+    {
+      "ra": 61729,
+      "name": "Carmelo Daniel",
+      "degreeId": 5,
+      "classId": 5,
+      "id": 260
+    },
+    {
+      "ra": 29589,
+      "name": "Emmett Nader",
+      "degreeId": 1,
+      "classId": 1,
+      "id": 261
+    },
+    {
+      "ra": 78073,
+      "name": "Cordell Davis",
+      "degreeId": 11,
+      "classId": 2,
+      "id": 262
+    },
+    {
+      "ra": 71249,
+      "name": "Kiana Sipes",
+      "degreeId": 12,
+      "classId": 6,
+      "id": 263
+    },
+    {
+      "ra": 52568,
+      "name": "Blake Buckridge",
+      "degreeId": 10,
+      "classId": 5,
+      "id": 264
+    },
+    {
+      "ra": 61478,
+      "name": "Jane Lowe",
+      "degreeId": 11,
+      "classId": 3,
+      "id": 265
+    },
+    {
+      "ra": 316,
+      "name": "Luciano Stiedemann",
+      "degreeId": 5,
+      "classId": 6,
+      "id": 266
+    },
+    {
+      "ra": 91664,
+      "name": "Suzanne Kris",
+      "degreeId": 6,
+      "classId": 6,
+      "id": 267
+    },
+    {
+      "ra": 67811,
+      "name": "Vincenza Nicolas",
+      "degreeId": 3,
+      "classId": 4,
+      "id": 268
+    },
+    {
+      "ra": 31816,
+      "name": "Kirk Hyatt",
+      "degreeId": 5,
+      "classId": 4,
+      "id": 269
+    },
+    {
+      "ra": 8482,
+      "name": "Nakia McLaughlin",
+      "degreeId": 1,
+      "classId": 3,
+      "id": 270
+    },
+    {
+      "ra": 50278,
+      "name": "Tessie Haag",
+      "degreeId": 9,
+      "classId": 1,
+      "id": 271
+    },
+    {
+      "ra": 94801,
+      "name": "Maximo Hegmann",
+      "degreeId": 5,
+      "classId": 2,
+      "id": 272
+    },
+    {
+      "ra": 10743,
+      "name": "Sophia Tillman",
+      "degreeId": 11,
+      "classId": 5,
+      "id": 273
+    },
+    {
+      "ra": 52145,
+      "name": "Jordane Christiansen",
+      "degreeId": 5,
+      "classId": 6,
+      "id": 274
+    },
+    {
+      "ra": 63900,
+      "name": "Beaulah Stoltenberg",
+      "degreeId": 7,
+      "classId": 2,
+      "id": 275
+    },
+    {
+      "ra": 55571,
+      "name": "Neal Beer",
+      "degreeId": 8,
+      "classId": 6,
+      "id": 276
+    },
+    {
+      "ra": 38687,
+      "name": "Maegan Schimmel",
+      "degreeId": 13,
+      "classId": 6,
+      "id": 277
+    },
+    {
+      "ra": 96563,
+      "name": "Nia Wintheiser",
+      "degreeId": 2,
+      "classId": 4,
+      "id": 278
+    },
+    {
+      "ra": 67276,
+      "name": "Araceli Strosin",
+      "degreeId": 10,
+      "classId": 2,
+      "id": 279
+    },
+    {
+      "ra": 37778,
+      "name": "Zachery Wintheiser",
+      "degreeId": 1,
+      "classId": 5,
+      "id": 280
+    },
+    {
+      "ra": 78460,
+      "name": "Loma Conn",
+      "degreeId": 13,
+      "classId": 4,
+      "id": 281
+    },
+    {
+      "ra": 10021,
+      "name": "Joan Schuppe",
+      "degreeId": 4,
+      "classId": 6,
+      "id": 282
+    },
+    {
+      "ra": 98612,
+      "name": "Mark Casper",
+      "degreeId": 13,
+      "classId": 1,
+      "id": 283
+    },
+    {
+      "ra": 43359,
+      "name": "Shanon Tremblay",
+      "degreeId": 9,
+      "classId": 1,
+      "id": 284
+    },
+    {
+      "ra": 37508,
+      "name": "Juliana Johns",
+      "degreeId": 13,
+      "classId": 6,
+      "id": 285
+    },
+    {
+      "ra": 65679,
+      "name": "Scarlett Schoen",
+      "degreeId": 13,
+      "classId": 6,
+      "id": 286
+    },
+    {
+      "ra": 23587,
+      "name": "Jazmyn Waelchi",
+      "degreeId": 10,
+      "classId": 5,
+      "id": 287
+    },
+    {
+      "ra": 73997,
+      "name": "Stacey Champlin",
+      "degreeId": 13,
+      "classId": 5,
+      "id": 288
+    },
+    {
+      "ra": 67813,
+      "name": "Vincenzo Heidenreich",
+      "degreeId": 6,
+      "classId": 4,
+      "id": 289
+    },
+    {
+      "ra": 42066,
+      "name": "Keven Crooks",
+      "degreeId": 12,
+      "classId": 4,
+      "id": 290
+    },
+    {
+      "ra": 51535,
+      "name": "Rosella Kulas",
+      "degreeId": 5,
+      "classId": 3,
+      "id": 291
+    },
+    {
+      "ra": 77943,
+      "name": "Gene Pagac",
+      "degreeId": 4,
+      "classId": 2,
+      "id": 292
+    },
+    {
+      "ra": 8886,
+      "name": "Kayli Pouros",
+      "degreeId": 9,
+      "classId": 4,
+      "id": 293
+    },
+    {
+      "ra": 75680,
+      "name": "Cicero Murazik",
+      "degreeId": 4,
+      "classId": 6,
+      "id": 294
+    },
+    {
+      "ra": 96952,
+      "name": "Adan Smitham",
+      "degreeId": 1,
+      "classId": 3,
+      "id": 295
+    },
+    {
+      "ra": 96062,
+      "name": "Alejandrin Murazik",
+      "degreeId": 13,
+      "classId": 3,
+      "id": 296
+    },
+    {
+      "ra": 9838,
+      "name": "Mozell Christiansen",
+      "degreeId": 1,
+      "classId": 6,
+      "id": 297
+    },
+    {
+      "ra": 64084,
+      "name": "Lesly Kub",
+      "degreeId": 3,
+      "classId": 5,
+      "id": 298
+    },
+    {
+      "ra": 55826,
+      "name": "Pascale Cronin",
+      "degreeId": 5,
+      "classId": 4,
+      "id": 299
+    },
+    {
+      "ra": 30308,
+      "name": "Torey Mohr",
+      "degreeId": 11,
+      "classId": 3,
+      "id": 300
+    },
+    {
+      "ra": 82251,
+      "name": "Arlene Parker",
+      "degreeId": 10,
+      "classId": 1,
+      "id": 301
+    },
+    {
+      "ra": 84985,
+      "name": "Tony Hudson",
+      "degreeId": 5,
+      "classId": 3,
+      "id": 302
+    },
+    {
+      "ra": 23812,
+      "name": "Ollie Balistreri",
+      "degreeId": 2,
+      "classId": 5,
+      "id": 303
+    },
+    {
+      "ra": 23260,
+      "name": "Caleb Bradtke",
+      "degreeId": 4,
+      "classId": 1,
+      "id": 304
+    },
+    {
+      "ra": 53612,
+      "name": "Spencer Bartell",
+      "degreeId": 11,
+      "classId": 1,
+      "id": 305
+    },
+    {
+      "ra": 45738,
+      "name": "Camille Sanford",
+      "degreeId": 4,
+      "classId": 6,
+      "id": 306
+    },
+    {
+      "ra": 65816,
+      "name": "Pauline Hartmann",
+      "degreeId": 6,
+      "classId": 6,
+      "id": 307
+    },
+    {
+      "ra": 65216,
+      "name": "Luther Beier",
+      "degreeId": 1,
+      "classId": 4,
+      "id": 308
+    },
+    {
+      "ra": 42148,
+      "name": "Naomie Stehr",
+      "degreeId": 1,
+      "classId": 3,
+      "id": 309
+    },
+    {
+      "ra": 55753,
+      "name": "Marina Johnson",
+      "degreeId": 12,
+      "classId": 1,
+      "id": 310
+    },
+    {
+      "ra": 67959,
+      "name": "Eden Hahn",
+      "degreeId": 8,
+      "classId": 2,
+      "id": 311
+    },
+    {
+      "ra": 38931,
+      "name": "Vivien Hoeger",
+      "degreeId": 2,
+      "classId": 5,
+      "id": 312
+    },
+    {
+      "ra": 9585,
+      "name": "Ezra Prohaska",
+      "degreeId": 9,
+      "classId": 5,
+      "id": 313
+    },
+    {
+      "ra": 13122,
+      "name": "Dora Armstrong",
+      "degreeId": 8,
+      "classId": 1,
+      "id": 314
     }
   ],
   "teachers": [

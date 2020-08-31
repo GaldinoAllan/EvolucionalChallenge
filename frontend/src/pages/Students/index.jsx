@@ -1,6 +1,7 @@
 import React from 'react';
 import Main from '../../components/Main';
 import { Component } from 'react';
+import faker from 'faker';
 
 import api from '../../service/api'
 import getById from '../../utils/getById';
@@ -58,6 +59,33 @@ export default class Student extends Component {
     const student = { ...this.state.student };
     student[event.target.name] = event.target.value;
     this.setState({ student });
+  }
+
+  async generate() {
+    for (let id = 1; id <= 300; id++) {
+      const student = this.state.student;
+
+      const firstName = faker.name.firstName();
+      const lastName = faker.name.lastName();
+
+      student.ra = faker.random.number();
+      student.name = `${firstName} ${lastName}`;
+      student.degreeId = faker.random.number({
+        'min': 1,
+        'max': 13
+      });
+      student.classId = faker.random.number({
+        'min': 1,
+        'max': 6
+      });
+
+      this.setState({ student });
+
+      await api.post('students', student).then(response => {
+        const list = this.getUpdatedList(response.data);
+        this.setState({ student: initialState.student, list });
+      });
+    }
   }
 
   renderForm() {
@@ -148,7 +176,11 @@ export default class Student extends Component {
         <hr />
         <div className="row">
           <div className="col-12 d-flex justify-content-end">
-            <button className="btn btn-primary" onClick={e => this.save(e)}>
+            <button className="btn btn-success" onClick={e => this.generate(e)}>
+              Gerar 300 registros
+            </button>
+
+            <button className="btn btn-primary ml-2" onClick={e => this.save(e)}>
               Salvar
             </button>
 

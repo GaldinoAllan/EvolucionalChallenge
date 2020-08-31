@@ -33,30 +33,11 @@ const StudentsDegree = () => {
 
   const getDegreeId = useCallback(() => {
     return students.filter(student => {
-      if (Number(student.degreeId) === Number(id)) {
-        return student
-      }
+      return Number(student.degreeId) === Number(id) && student
     })
-  }, [id, students])
+  }, [id, students]);
 
-  const renderTable = () => {
-    return (
-      <table className="table mt-4">
-        <thead>
-          <tr>
-            <th>ID</th>
-            <th>RA</th>
-            <th>Nome</th>
-            <th>Degree</th>
-            <th>Class</th>
-          </tr>
-        </thead>
-        <tbody>{renderRows()}</tbody>
-      </table>
-    );
-  }
-
-  const renderRows = useCallback(() => {
+  const tableRows = useCallback(() => {
     const filteredStudents = getDegreeId()
 
     return filteredStudents.map(student => {
@@ -74,7 +55,18 @@ const StudentsDegree = () => {
 
   return (
     <Main {...headerProps}>
-      {renderTable()}
+      <table className="table mt-4">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>RA</th>
+            <th>Nome</th>
+            <th>Degree</th>
+            <th>Class</th>
+          </tr>
+        </thead>
+        <tbody>{tableRows()}</tbody>
+      </table>
     </Main>
   );
 }
