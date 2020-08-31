@@ -2438,6 +2438,20 @@
       "degreeId": 8,
       "classId": 1,
       "id": 314
+    },
+    {
+      "ra": "123456",
+      "name": "Carol",
+      "degreeId": "9",
+      "classId": "1",
+      "id": 315
+    },
+    {
+      "ra": "12341234",
+      "name": "teste",
+      "degreeId": "9",
+      "classId": "1",
+      "id": 316
     }
   ],
   "teachers": [

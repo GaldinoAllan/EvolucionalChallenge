@@ -5,6 +5,7 @@ import Home from '../pages/Landing';
 import Students from '../pages/Students';
 import Teachers from '../pages/Teachers';
 import StudentsDegree from '../pages/StudentsDegree';
+import StudentsChart from '../pages/StudentsChart';
 
 export default props =>
     <Switch>
@@ -16,5 +17,6 @@ export default props =>
             path="/students-by-degree/:id"
             component={StudentsDegree}
         />
+        <Route exact path="/students-chart" component={StudentsChart} />
         <Redirect from="*" to="/" />
     </Switch>

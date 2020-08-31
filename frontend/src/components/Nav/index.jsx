@@ -14,5 +14,8 @@ export default props =>
             <Link to="/teachers">
                 <i className="fa fa-user"></i> Teachers
             </Link>
+            <Link to="/students-chart">
+                <i className="far fa-chart-bar"></i> Students Chart
+            </Link>
         </nav>
     </aside>
